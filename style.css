@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -134,6 +135,21 @@ line-height: 116.6%;
 text-align: center;
 letter-spacing: 0.03em;
 color: #163561;
+margin-top: 200px;
+/* // */
+margin-left: 25%;
+/* // */
+}
+.server span{
+    font-family: 'Catamaran';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 116.6%;
+text-align: center;
+
+letter-spacing: 0.03em;
+color:#FBB400;
 }
 
 .Mycard{
@@ -190,6 +206,14 @@ border-radius: 29px;
 #san{
         justify-content:space-around
 }
+#marat{
+    display: flex;
+    justify-content: center;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+}
 
 .hair1{
     font-family: 'Catamaran';
@@ -213,4 +237,43 @@ letter-spacing: 0.03em;
 color: #030303;
 opacity: 0.65;
 margin: 0px 25px 10px 25px ;
+}
+
+.hamasi{
+display: flex;
+justify-content: center;
+}
+.kut{
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #153461;
+    opacity: 0.65;
+}
+.fut{
+    margin-top: 150px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+.hul{
+    margin-bottom: 98px;
+}
+.tarmoq{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.ikrom{
+    padding-top: 12px;
+    text-align: center;
+    size: 20px;
+    background: #b3dbf1;
+    border-radius: 50%;
+    width: 57px;
+height: 57px;
 }
