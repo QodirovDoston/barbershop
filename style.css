@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ikon{
+    margin-top: 50px;
+    margin-left: -20px;
+font-family: 'Catamaran';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 133.6%;
+color: #99BAED;
+}
+.lis{
+    margin-top: 69px;
+    list-style: none;
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 46px;
+background: #99BAED;
+border-radius: 20px;
+}
+#dos{
+    margin-top: 60px;
+}
+.had{
+font-family: 'Catamaran';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 133.6%;
+color: #163561;
+}
+.had1{
+font-family: 'Catamaran';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 133.6%;
+color: #FFFFFF;
+background-origin: padding-box;
+}
