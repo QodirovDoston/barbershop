@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +30,9 @@
 #dos {
     margin-top: 60px;
 }
+
 .btnbut2 {
+    border-style: none;
     position: absolute;
     width: 188px;
     height: 75px;
@@ -36,7 +40,6 @@
     border-radius: 20px;
     color: white;
     margin-top: 47px
-    
 }
 
 .dos {
@@ -91,6 +94,7 @@
 }
 
 .btnbut {
+    border-style: none;
     position: absolute;
     width: 188px;
     height: 75px;
@@ -126,124 +130,141 @@
     color: #FBB400;
     margin-top: 170px;
 }
-.server{
-    font-family: 'Catamaran';
-font-style: normal;
-font-weight: 700;
-font-size: 70px;
-line-height: 116.6%;
-text-align: center;
-letter-spacing: 0.03em;
-color: #163561;
-margin-top: 200px;
-/* // */
-margin-left: 25%;
-/* // */
-}
-.server span{
-    font-family: 'Catamaran';
-font-style: normal;
-font-weight: 700;
-font-size: 70px;
-line-height: 116.6%;
-text-align: center;
+#bolaot{
 
-letter-spacing: 0.03em;
-color:#FBB400;
+}
+.server {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 116.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #163561;
+    margin-top: 200px;
+    /* // */
+    margin-left: 25%;
+    /* // */
 }
 
-.Mycard{
-background: #99BAED;
-border-radius: 29px;
-width: 341px;
-height: 433px;
+.server span {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 116.6%;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    color: #FBB400;
 }
-.our{
+
+.Mycard {
+    background: #99BAED;
+    border-radius: 29px;
+    width: 341px;
+    height: 433px;
+}
+
+.our {
+    margin: auto;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    width: 120px;
+    height: 145px;
+    background: #E5ECFE;
+    border-radius: 10px;
+}
 
-    
+#uy {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    margin-top: 39px;
+    background: #E5ECFE;
+    border-radius: 13px
 }
-#uy{
-width: 100px;
-height: 100px;
-margin-top: 39px;
-background: #E5ECFE;
-box-shadow: 0px 1px 0px #008FDD;
-border-radius: 13px
-}
-.hair{
+
+.hair {
     font-family: 'Catamaran';
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 116.6%;
-text-align: center;
-letter-spacing: 0.03em;
-color: #ffffff;
-margin-top: 59px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 116.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-top: 59px;
 }
-.long{
+
+.long {
     font-family: 'Catamaran';
-font-style: normal;
-font-weight: 500%;
-font-size: 25px;
-line-height: 150.6%;
-text-align: center;
-letter-spacing: 0.03em;
-color: #ffffff;
-opacity: 0.65;
-margin: 0px 25px 10px 25px ;
+    font-style: normal;
+    font-weight: 500%;
+    font-size: 25px;
+    line-height: 150.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    opacity: 0.65;
+    margin: 0px 25px 10px 25px;
 }
-.Mycard1{
+
+.Mycard1 {
     width: 341px;
     height: 433px;
-background: #FAFBFF;
-box-shadow: 0px 5px 0px #99BAED;
-border-radius: 29px;
-    }
-#san{
-        justify-content:space-around
+    background: #FAFBFF;
+    box-shadow: 0px 5px 0px #99BAED;
+    border-radius: 29px;
 }
-#marat{
-    display: flex;
-    justify-content: center;
+
+#san {
+    justify-content: space-around
 }
-.ff{
+
+#marat {
     display: flex;
     justify-content: center;
 }
 
-.hair1{
-    font-family: 'Catamaran';
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 116.6%;
-text-align: center;
-letter-spacing: 0.03em;
-color: #080808;
-margin-top: 59px;
-}
-.long1{
-    font-family: 'Catamaran';
-font-style: normal;
-font-weight: 500%;
-font-size: 25px;
-line-height: 150.6%;
-text-align: center;
-letter-spacing: 0.03em;
-color: #030303;
-opacity: 0.65;
-margin: 0px 25px 10px 25px ;
+.ff {
+    display: flex;
+    justify-content: center;
 }
 
-.hamasi{
-display: flex;
-justify-content: center;
+.hair1 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 116.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #080808;
+    margin-top: 59px;
 }
-.kut{
+
+.long1 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 500%;
+    font-size: 25px;
+    line-height: 150.6%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #030303;
+    opacity: 0.65;
+    margin: 0px 25px 10px 25px;
+}
+
+.hamasi {
+    display: flex;
+    justify-content: center;
+}
+
+.kut {
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 400;
@@ -251,29 +272,63 @@ justify-content: center;
     line-height: 150.6%;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #153461;
+    color: #080809;
     opacity: 0.65;
 }
-.fut{
+
+.fut {
     margin-top: 150px;
     margin-bottom: 36px;
     display: flex;
     justify-content: center;
 }
-.hul{
+
+.hul {
     margin-bottom: 98px;
 }
-.tarmoq{
+
+.tarmoq {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-.ikrom{
+
+.ikrom {
     padding-top: 12px;
     text-align: center;
     size: 20px;
     background: #b3dbf1;
     border-radius: 50%;
     width: 57px;
-height: 57px;
-}d
+    height: 57px;
+}
+
+
+ .leve{
+    width: 300px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin-bottom: 222px;
+} 
+/* .leve{
+    width: 100;
+    box-sizing: border-box;
+} */
+/* 
+/* #sed{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: -9;
+} 
+    
+    
+    -webkit-text-stroke: 2px red;
+
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ff0000; */
+
+    /* -webkit-text-stroke-color: red; */
+    /* -webkit-text-stroke-color: inherit;  */
+/* -webkit-text-stroke-color: initial; */
+/* -webkit-text-stroke-color: unset; */
