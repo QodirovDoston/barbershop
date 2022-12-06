@@ -98,6 +98,26 @@
     color: white;
     margin-top: 47px
 }
+.btnbut1 {
+    border-style: none;
+    position: absolute;
+    width: 188px;
+    height: 75px;
+    background: #99BAED;
+    border-radius: 20px;
+    color: white;
+    margin-top: 47px
+}
+.btnbut3 {
+    border-style: none;
+    position: absolute;
+    width: 188px;
+    height: 75px;
+    background: #99BAED;
+    border-radius: 20px;
+    color: white;
+    margin-top: 47px
+}
 
 
 #rasm {
@@ -330,12 +350,8 @@
         display: flex;
     }
     .btnbut1 {
-        width: 120px;
-        height: 40px;
-        background: #99BAED;
-        border-radius: 20px;
-        color: white;
-       margin-top: 50px;
+        display: none;
+        
     }
     .btnbut {
         width: 120px;
@@ -345,7 +361,16 @@
         color: white;
        margin-top: 10px;
     }
-    
+    .btnbut3 {
+        width: 120px;
+        height: 40px;
+        background: #99BAED;
+        border-radius: 20px;
+        color: white;
+       margin-top: 10px;
+        margin-left: 160px;
+    }
+
     .server {
         display: none;
         font-size: 27px;
@@ -376,7 +401,7 @@
         font-size: 10px;
         margin: auto;
         width: 200px;
-        margin-left: 150PX;
+        margin-left: 120PX;
         text-align: center;
     }
     .hairstyle span {
@@ -388,12 +413,11 @@
     }
     .hairstyle1 {
         font-size: 10px;
-        margin-top: 4px;
         margin-bottom: 20px;
         text-align: center;
         margin: auto;
         width: 200px;
-        margin-left: 150PX;
+        margin-left: 120PX;
 
     }
     .hairstyle1 span {
@@ -408,12 +432,12 @@
         flex-wrap: wrap;
         margin-top: 46px;
         width: 400px;
-        margin-left: 50px;
+        margin-left: 18px;
     }
     #rasm {
         margin-top: 31px;
         width: 400px;
-        margin-left: -10px;
+        margin-left: 20px;
     }
     .hair {
         font-family: 'Catamaran';
