@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 .ikon {
     margin-top: 54px;
     margin-left: -20px;
@@ -16,7 +14,6 @@
     line-height: 133.6%;
     color: #99BAED;
 }
-
 .lis {
     display: flex;
     margin-top: 69px;
@@ -24,13 +21,9 @@
     justify-content: flex-end;
     justify-content: space-between;
 }
-
-
-
 #dos {
     margin-top: 60px;
 }
-
 .btnbut2 {
     border-style: none;
     position: absolute;
@@ -41,11 +34,9 @@
     color: white;
     margin-top: 47px
 }
-
 .dos {
     text-align: end;
 }
-
 .had {
     font-family: 'Catamaran';
     font-style: normal;
@@ -54,13 +45,10 @@
     line-height: 133.6%;
     color: #163561;
 }
-
 #ehrom {
     margin-top: 100px;
 }
-
 .hairstyle {
-
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
@@ -69,9 +57,7 @@
     color: #050504;
     margin-top: 170px;
 }
-
 .hairstyle span {
-
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 700;
@@ -80,19 +66,28 @@
     color: #FBB400;
     margin-top: 170px;
 }
-
 .poragrov {
     font-family: 'Catamaran';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 150.6%;
+    line-height: 100.6%;
     letter-spacing: 0.03em;
     color: #153461;
-    margin-top: 30px;
-    margin-bottom: 47px;
+    margin-top: 15px;
+    margin-bottom: 59px;
 }
-
+.poragrov1 {
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100.6%;
+    letter-spacing: 0.03em;
+    color: #153461;
+    margin-top: 15px;
+    margin-bottom: 59px;
+}
 .btnbut {
     border-style: none;
     position: absolute;
@@ -130,9 +125,6 @@
     color: #FBB400;
     margin-top: 170px;
 }
-#bolaot{
-
-}
 .server {
     font-family: 'Catamaran';
     font-style: normal;
@@ -142,12 +134,12 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #163561;
-    margin-top: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     /* // */
     margin-left: 25%;
     /* // */
 }
-
 .server span {
     font-family: 'Catamaran';
     font-style: normal;
@@ -159,14 +151,12 @@
     letter-spacing: 0.03em;
     color: #FBB400;
 }
-
 .Mycard {
     background: #99BAED;
     border-radius: 29px;
     width: 341px;
     height: 433px;
 }
-
 .our {
     margin: auto;
     display: flex;
@@ -177,7 +167,6 @@
     background: #E5ECFE;
     border-radius: 10px;
 }
-
 #uy {
     margin-top: 100px;
     width: 100px;
@@ -186,7 +175,6 @@
     background: #E5ECFE;
     border-radius: 13px
 }
-
 .hair {
     font-family: 'Catamaran';
     font-style: normal;
@@ -198,7 +186,6 @@
     color: #ffffff;
     margin-top: 59px;
 }
-
 .long {
     font-family: 'Catamaran';
     font-style: normal;
@@ -211,7 +198,6 @@
     opacity: 0.65;
     margin: 0px 25px 10px 25px;
 }
-
 .Mycard1 {
     width: 341px;
     height: 433px;
@@ -219,21 +205,20 @@
     box-shadow: 0px 5px 0px #99BAED;
     border-radius: 29px;
 }
-
 #san {
-    justify-content: space-around
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-
 #marat {
     display: flex;
     justify-content: center;
 }
-
 .ff {
     display: flex;
     justify-content: center;
 }
-
 .hair1 {
     font-family: 'Catamaran';
     font-style: normal;
@@ -241,11 +226,9 @@
     font-size: 45px;
     line-height: 116.6%;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #080808;
-    margin-top: 59px;
+    margin-top: px;
 }
-
 .long1 {
     font-family: 'Catamaran';
     font-style: normal;
@@ -258,12 +241,10 @@
     opacity: 0.65;
     margin: 0px 25px 10px 25px;
 }
-
 .hamasi {
     display: flex;
     justify-content: center;
 }
-
 .kut {
     font-family: 'Catamaran';
     font-style: normal;
@@ -275,24 +256,20 @@
     color: #080809;
     opacity: 0.65;
 }
-
 .fut {
     margin-top: 150px;
     margin-bottom: 36px;
     display: flex;
     justify-content: center;
 }
-
 .hul {
     margin-bottom: 98px;
 }
-
 .tarmoq {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-
 .ikrom {
     padding-top: 12px;
     text-align: center;
@@ -302,33 +279,185 @@
     width: 57px;
     height: 57px;
 }
+#man {
+    display: none;
+}
+.container .navbar {
+    display: none;
+}
+.hidden{
+    display: none;
+}
 
-
- .leve{
-    width: 300px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    margin-bottom: 222px;
-} 
-/* .leve{
-    width: 100;
-    box-sizing: border-box;
-} */
-/* 
-/* #sed{
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    z-index: -9;
-} 
+@media (max-width:640px) {
+    .box {
+        display: none;
+    }
+    #sef {
+        display: none;
+    }
+    .nimadur-box{
+        flex-direction: column-reverse !important;
+    }
+    .poragrov1{
+        flex: 0 0 auto;
+        width: 500px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .poragrov{
+        display: none;
+    }
+    #man {
+        display: flex;
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .nimadur{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+        display: flex;
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+    .container .navbar {
+        display: flex;
+    }
+    .btnbut1 {
+        width: 120px;
+        height: 40px;
+        background: #99BAED;
+        border-radius: 20px;
+        color: white;
+       margin-top: 50px;
+    }
+    .btnbut {
+        width: 120px;
+        height: 40px;
+        background: #99BAED;
+        border-radius: 20px;
+        color: white;
+       margin-top: 10px;
+    }
     
-    
-    -webkit-text-stroke: 2px red;
+    .server {
+        display: none;
+        font-size: 27px;
+        line-height: 116.6%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #163561;
+        margin-bottom: 10px;
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    .fut {
+        margin-top: 80px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    .server span {
+        font-size: 27px;
+        line-height: 116.6%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #163561;
+        margin-top: 32px;
+        margin-left: 20%;
+    }
+    .hairstyle {
+        font-size: 10px;
+        margin: auto;
+        width: 200px;
+        margin-left: 150PX;
+        text-align: center;
+    }
+    .hairstyle span {
+        font-size: 10px;
+        margin-top: 50px;
+        text-align: center;
+        margin: auto;
 
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #ff0000; */
+    }
+    .hairstyle1 {
+        font-size: 10px;
+        margin-top: 4px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        margin-left: 150PX;
 
-    /* -webkit-text-stroke-color: red; */
-    /* -webkit-text-stroke-color: inherit;  */
-/* -webkit-text-stroke-color: initial; */
-/* -webkit-text-stroke-color: unset; */
+    }
+    .hairstyle1 span {
+        font-size: 10px;
+        margin-top: 4px;
+        text-align: center;
+        margin: auto;
+
+    }
+    #ehrom {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 46px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    #rasm {
+        margin-top: 31px;
+        width: 400px;
+        margin-left: -10px;
+    }
+    .hair {
+        font-family: 'Catamaran';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 116.6%;
+        text-align: center;
+        color: #100f0f;
+        margin-top: 15px;
+    }
+    .long {
+        font-weight: 500%;
+        font-size: 25px;
+        line-height: 150.6%;
+        color: #0a0909;
+        opacity: 0.65;
+        margin: 0px 25px 10px 25px;
+    }
+    .hul {
+        margin-bottom: 9px;
+        font-size: 13px;
+        width: 50px;
+    }
+    #sed {
+        margin-top: 10px;
+        vertical-align: middle;
+        width: 400px;
+    }
+    .kut {
+        font-size: 15px;
+        line-height: 150.6%;
+        text-align: center;
+    }
+    #mox {
+        width: 10px;
+        margin-bottom: 40px;
+    }
+    .ikrom {
+        padding-top: 12px;
+        text-align: center;
+        size: 20px;
+        background: #b3dbf1;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+}
