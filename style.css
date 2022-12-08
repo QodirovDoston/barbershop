@@ -451,14 +451,21 @@
         text-align: center;
         color: #100f0f;
         margin-top: 15px;
+        font-size: 40px;
+    }
+    .hair1{
+        font-size: 40px;
     }
     .long {
         font-weight: 500%;
-        font-size: 25px;
+        font-size: 17px;
         line-height: 150.6%;
         color: #0a0909;
         opacity: 0.65;
         margin: 0px 25px 10px 25px;
+    }
+    .long1{
+        font-size: 17px;
     }
     .hul {
         margin-bottom: 9px;
@@ -497,7 +504,7 @@
 
     .Mycard1 {
         width: 341px;
-        height: 490px;
+        height: 410px;
         background: #FAFBFF;
         box-shadow: 0px 5px 0px #99BAED;
         border-radius: 29px;
@@ -505,7 +512,7 @@
     }
     .Mycard {
         width: 341px;
-        height: 490px;
+        height: 410px;
         background: #FAFBFF;
         box-shadow: 0px 5px 0px #4074c3;
         border-radius: 29px;
