@@ -381,7 +381,12 @@
        margin-top: 10px;
         margin-left: 117px;
     }
-.our{margin-top: 27px;}
+.our{
+    margin-top: 27px;
+    width: 93px;
+    height: 127px;
+
+}
     .server {
         display: none;
         font-size: 27px;
@@ -443,14 +448,14 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 46px;
-        width: 380px;
-        margin-left: -30px;
+        width: 300px;
+        margin-left: 6px;
 
     }
     #rasm {
-        margin-top: 31px;
-        width: 380px;
-        margin-left: -22px;
+        margin-top: 61px;
+        width: 300px;
+        margin-left: 21px;
     }
     .hair {
         font-family: 'Catamaran';
@@ -546,5 +551,9 @@
     #haircut{
         margin-top: 20px;
         height: 130px;
+    }
+    #uy {
+        width: 50px;
+        height: 69px;
     }
 }
