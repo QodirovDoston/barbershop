@@ -26,6 +26,7 @@
     margin-top: 60px;
 }
 .btnbut2 {
+    margin-left: 200px;
     border-style: none;
     position: absolute;
     width: 188px;
@@ -175,10 +176,18 @@
 .Mycard {
     background: #99BAED;
     border-radius: 29px;
+    max-width: 100%;
     width: 341px;
-    height: 533px;
-    max-width: 67%;
+    height: 433px;
 }
+
+.Mycard:hover {
+    background-color: rgb(67, 172, 247);
+}
+.Mycard1:hover {
+    background-color: rgb(67, 172, 247);
+}
+
 .our {
     margin: auto;
     display: flex;
@@ -533,5 +542,9 @@
     .tarmoq{
         width: 100%;
         margin-left: 90px;
+    }
+    #haircut{
+        margin-top: 20px;
+        height: 130px;
     }
 }
