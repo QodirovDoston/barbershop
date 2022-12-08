@@ -362,7 +362,6 @@
         border-radius: 20px;
         color: white;
        margin-top: 10px;
-       margin-right: 47px;
     }
     .btnbut3 {
         width: 120px;
@@ -371,9 +370,9 @@
         border-radius: 20px;
         color: white;
        margin-top: 10px;
-        margin-left: 160px;
+        margin-left: 117px;
     }
-
+.our{margin-top: 27px;}
     .server {
         display: none;
         font-size: 27px;
@@ -405,7 +404,7 @@
         font-size: 18px;
         margin: auto;
         width: 200px;
-        margin-left: 120PX;
+        margin-left: 67PX;
         text-align: center;
     }
     .hairstyle span {
@@ -421,7 +420,7 @@
         text-align: center;
         margin: auto;
         width: 200px;
-        margin-left: 120PX;
+        margin-left: 67PX;
 
     }
     .hairstyle1 span {
@@ -435,13 +434,14 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 46px;
-        width: 400px;
-        margin-left: 18px;
+        width: 380px;
+        margin-left: -30px;
+
     }
     #rasm {
         margin-top: 31px;
-        width: 400px;
-        margin-left: 0px;
+        width: 380px;
+        margin-left: -22px;
     }
     .hair {
         font-family: 'Catamaran';
@@ -475,8 +475,9 @@
     #sed {
         margin-top: 10px;
         vertical-align: middle;
-        width: 400px;
-        margin-left: 185px;
+        width: 347px;
+        margin-left: 164px;
+
     }
     .kut {
         font-size: 15px;
@@ -504,19 +505,19 @@
 
     .Mycard1 {
         width: 341px;
-        height: 410px;
+        height: 390px;
         background: #FAFBFF;
         box-shadow: 0px 5px 0px #99BAED;
         border-radius: 29px;
-        margin-left:94PX;
+        margin-left:68px;
     }
     .Mycard {
         width: 341px;
-        height: 410px;
+        height: 390px;
         background: #FAFBFF;
         box-shadow: 0px 5px 0px #4074c3;
         border-radius: 29px;
-        margin-left:94PX;
+        margin-left:68px;
     }
     .row{
         flex-shrink: 0;
