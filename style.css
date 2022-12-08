@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -175,7 +176,8 @@
     background: #99BAED;
     border-radius: 29px;
     width: 341px;
-    height: 433px;
+    height: 533px;
+    max-width: 67%;
 }
 .our {
     margin: auto;
@@ -360,6 +362,7 @@
         border-radius: 20px;
         color: white;
        margin-top: 10px;
+       margin-right: 47px;
     }
     .btnbut3 {
         width: 120px;
@@ -387,6 +390,7 @@
         margin-bottom: 16px;
         display: flex;
         justify-content: center;
+        margin-left: 120px;
     }
     .server span {
         font-size: 27px;
@@ -398,21 +402,21 @@
         margin-left: 20%;
     }
     .hairstyle {
-        font-size: 10px;
+        font-size: 18px;
         margin: auto;
         width: 200px;
         margin-left: 120PX;
         text-align: center;
     }
     .hairstyle span {
-        font-size: 10px;
+        font-size: 18px;
         margin-top: 50px;
         text-align: center;
         margin: auto;
 
     }
     .hairstyle1 {
-        font-size: 10px;
+        font-size: 18px;
         margin-bottom: 20px;
         text-align: center;
         margin: auto;
@@ -421,7 +425,7 @@
 
     }
     .hairstyle1 span {
-        font-size: 10px;
+        font-size: 18px;
         margin-top: 4px;
         text-align: center;
         margin: auto;
@@ -437,7 +441,7 @@
     #rasm {
         margin-top: 31px;
         width: 400px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .hair {
         font-family: 'Catamaran';
@@ -465,11 +469,14 @@
         margin-top: 10px;
         vertical-align: middle;
         width: 400px;
+        margin-left: 185px;
     }
     .kut {
         font-size: 15px;
         line-height: 150.6%;
         text-align: center;
+        margin-left: 90px;
+        width: 100%;
     }
     #mox {
         width: 10px;
@@ -483,5 +490,40 @@
         border-radius: 50%;
         width: 30px;
         height: 30px;
+    }
+    #haircut{
+        margin-left: 40px;
+    }
+
+    .Mycard1 {
+        width: 341px;
+        height: 490px;
+        background: #FAFBFF;
+        box-shadow: 0px 5px 0px #99BAED;
+        border-radius: 29px;
+        margin-left:94PX;
+    }
+    .Mycard {
+        width: 341px;
+        height: 490px;
+        background: #FAFBFF;
+        box-shadow: 0px 5px 0px #4074c3;
+        border-radius: 29px;
+        margin-left:94PX;
+    }
+    .row{
+        flex-shrink: 0;
+        width: 60%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .ikon {
+        margin-top: 101px;
+        margin-left: -28px;
+    }
+    .tarmoq{
+        width: 100%;
+        margin-left: 90px;
     }
 }
