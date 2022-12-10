@@ -98,6 +98,7 @@
     background: #99BAED;
     border-radius: 20px;
     color: white;
+    margin-left: -85px;
     margin-top: 47px
 }
 .btnbut1 {
@@ -120,7 +121,9 @@
     color: white;
     margin-top: 47px
 }
-
+#fa{
+    font-size: 32px;
+}
 
 #rasm {
     margin-top: 300px;
@@ -174,18 +177,21 @@
     color: #FBB400;
 }
 .Mycard {
-    background: #99BAED;
-    border-radius: 29px;
-    max-width: 100%;
+
     width: 341px;
     height: 433px;
+    background: #FAFBFF;
+    box-shadow: 0px 5px 0px #99BAED;
+    border-radius: 29px;
 }
 
 .Mycard:hover {
-    background-color: rgb(67, 172, 247);
+    background-color: #99BAED;
+    transition: 1s;
 }
 .Mycard1:hover {
-    background-color: rgb(67, 172, 247);
+    background-color: #99BAED;
+    transition: 1s;
 }
 
 .our {
@@ -214,7 +220,7 @@
     line-height: 116.6%;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #060606;
     margin-top: 59px;
 }
 .long {
@@ -225,7 +231,7 @@
     line-height: 150.6%;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: #040303;
     opacity: 0.65;
     margin: 0px 25px 10px 25px;
 }
@@ -302,13 +308,13 @@
     margin-bottom: 40px;
 }
 .ikrom {
-    padding-top: 12px;
+    padding-top: 13px;
     text-align: center;
-    size: 20px;
+    size: 19px;
     background: #b3dbf1;
     border-radius: 50%;
-    width: 57px;
-    height: 57px;
+    width: 58px;
+    height: 58px;
 }
 #man {
     display: none;
@@ -320,7 +326,7 @@
     display: none;
 }
 
-@media (max-width:640px) {
+@media (max-width:360px) {
     .box {
         display: none;
     }
@@ -365,13 +371,15 @@
         
     }
     .btnbut {
-        width: 120px;
-        height: 40px;
+        width: 95px;
+        height: 33px;
         background: #99BAED;
         border-radius: 20px;
         color: white;
-       margin-top: 10px;
-    }
+       margin-top: 20px;
+       margin-left: 6px;
+   }
+    
     .btnbut3 {
         width: 120px;
         height: 40px;
@@ -497,21 +505,22 @@
         font-size: 15px;
         line-height: 150.6%;
         text-align: center;
-        margin-left: 90px;
-        width: 100%;
+        margin-left: 7px;
+        width: 200%;
     }
     #mox {
-        width: 10px;
-        margin-bottom: 40px;
+        width: 13px;
+        margin-bottom: 17px;
     }
     .ikrom {
-        padding-top: 12px;
+        padding-left: 8px;
+        padding-top: 6px;
         text-align: center;
         size: 20px;
         background: #b3dbf1;
         border-radius: 50%;
-        width: 30px;
-        height: 30px;
+        width: 33px;
+        height: 33px;
     }
     #haircut{
         margin-left: 40px;
@@ -545,8 +554,8 @@
         margin-left: -28px;
     }
     .tarmoq{
-        width: 100%;
-        margin-left: 90px;
+        width: 126%;
+        margin-left: 60px;
     }
     #haircut{
         margin-top: 20px;
