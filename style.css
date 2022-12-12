@@ -377,7 +377,7 @@
         border-radius: 20px;
         color: white;
        margin-top: 20px;
-       margin-left: 6px;
+       margin-left: -60px;
    }
     
     .btnbut3 {
@@ -498,7 +498,7 @@
         margin-top: 10px;
         vertical-align: middle;
         width: 347px;
-        margin-left: 164px;
+        margin-left: 156px;
 
     }
     .kut {
@@ -565,4 +565,10 @@
         width: 50px;
         height: 69px;
     }
+
+    #fa{
+      margin: 1px 1,6px 1px 1px;
+        font-size: 18px;
+    }
+  
 }
