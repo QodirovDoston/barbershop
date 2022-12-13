@@ -306,15 +306,17 @@
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    align-items: center;
 }
 .ikrom {
-    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     size: 19px;
     background: #b3dbf1;
     border-radius: 50%;
-    width: 58px;
-    height: 58px;
+    padding: 10px;
 }
 #man {
     display: none;
@@ -512,16 +514,7 @@
         width: 13px;
         margin-bottom: 17px;
     }
-    .ikrom {
-        padding-left: 8px;
-        padding-top: 6px;
-        text-align: center;
-        size: 20px;
-        background: #b3dbf1;
-        border-radius: 50%;
-        width: 33px;
-        height: 33px;
-    }
+    
     #haircut{
         margin-left: 40px;
     }
@@ -570,5 +563,16 @@
       margin: 1px 1,6px 1px 1px;
         font-size: 18px;
     }
+    .ikrom{
+        width: 38px;
+        height: 38px;
+        padding: 0;
+    }
+    .ikrom a{
+     display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; 
+}
   
 }
