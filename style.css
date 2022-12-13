@@ -371,6 +371,9 @@
         
     }
     .btnbut {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 95px;
         height: 33px;
         background: #99BAED;
@@ -505,7 +508,7 @@
         font-size: 15px;
         line-height: 150.6%;
         text-align: center;
-        margin-left: 7px;
+        margin-left: 0px;
         width: 200%;
     }
     #mox {
@@ -523,7 +526,7 @@
         height: 33px;
     }
     #haircut{
-        margin-left: 40px;
+        margin-left: 23px;
     }
 
     .Mycard1 {
@@ -567,8 +570,23 @@
     }
 
     #fa{
-      margin: 1px 1,6px 1px 1px;
+        display: flex;
+        justify-content: center;
         font-size: 18px;
+        margin-top: 4px;
+        margin-right:6px  ;
+    }
+
+    .ikrom{
+        width: 38px;
+        height: 38px;
+        padding: 10;
+    }
+    .ikrom a{
+     display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center; 
     }
   
 }
